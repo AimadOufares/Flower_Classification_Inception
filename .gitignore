@@ -59,3 +59,8 @@ Thumbs.db
 .vscode/
 .idea/
 *.swp
+
+# ============================
+# Ignorer tout le contenu du dossier data
+# ============================
+data/
