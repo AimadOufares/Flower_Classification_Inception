@@ -1,0 +1,61 @@
+# ============================
+#  FICHIERS PYTHON
+# ============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# ============================
+#  ENVIRONNEMENTS & PACKAGES
+# ============================
+venv/
+env/
+.venv/
+*.egg-info/
+pip-wheel-metadata/
+
+# ============================
+#  JUPYTER NOTEBOOKS
+# ============================
+.ipynb_checkpoints/
+
+# ============================
+#  MODELS & WEIGHTS
+# ============================
+models/
+*.h5
+*.hdf5
+*.ckpt
+*.tflite
+
+# ============================
+#  DATASET
+# ============================
+data/
+*.zip
+*.tar.gz
+
+# Autoriser un fichier vide pour garder le dossier structurel
+!data/.gitkeep
+!models/.gitkeep
+
+# ============================
+#  LOGS & SORTIES
+# ============================
+logs/
+*.log
+
+# ============================
+#  OUTILS ET SYSTEME
+# ============================
+.DS_Store
+Thumbs.db
+
+# ============================
+#  IDE / EDITORS
+# ============================
+.vscode/
+.idea/
+*.swp
