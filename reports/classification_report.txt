@@ -1,0 +1,13 @@
+Accuracy globale : 0.9826
+
+              precision    recall  f1-score   support
+
+       Lilly       0.98      0.96      0.97      1000
+       Lotus       0.96      0.99      0.98      1000
+      Orchid       0.98      0.98      0.98      1000
+   Sunflower       1.00      1.00      1.00      1000
+       Tulip       0.99      0.98      0.99      1000
+
+    accuracy                           0.98      5000
+   macro avg       0.98      0.98      0.98      5000
+weighted avg       0.98      0.98      0.98      5000
